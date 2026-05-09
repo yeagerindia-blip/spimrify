@@ -68,8 +68,8 @@ function Wallet() {
             </div>
 
             <div className="walletBody">
-                <h1 id="scan">Scan QR to Pay</h1>
-                <img src={pay} id="QR" alt="QR Code" />
+                <h1 id="scan" style={{textAlign:'center'}}>Games are played with virtual 🪙 coins only. No real money gambling or cash rewards involved.</h1>
+                
             </div>
             <div className="walletButton">
                 <form onSubmit={walletApi} encType="multipart/form-data">

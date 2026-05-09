@@ -30,7 +30,7 @@ function Bet() {
                 <div className="mainMoney">
                     {/* Wallet par click karke add money page par jana */}
                     <h1 id="caseAdd" onClick={() => { nav('/wallet') }}>
-                        ₹ {Number(userData?.walletBalance || 0).toFixed(1)}
+                        🪙 {Number(userData?.walletBalance || 0).toFixed(1)}
                     </h1>
                 </div>
             </div>

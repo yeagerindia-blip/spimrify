@@ -162,7 +162,7 @@ const BigSmallGame = () => {
             <div className="bs-container">
                 <div className="bs-header">
                     <button onClick={() => nav(-1)} style={{background:'none', border:'none', color:'white', fontSize:'20px'}}>⬅️</button>
-                    <div className="wallet-badge">₹ {Number(userData?.walletBalance || 0).toFixed(2)}</div>
+                    <div className="wallet-badge">🪙 {Number(userData?.walletBalance || 0).toFixed(2)}</div>
                 </div>
 
                 <h2 style={{margin: '0', color: '#f1c40f', letterSpacing: '2px'}}>BIG SMALL</h2>

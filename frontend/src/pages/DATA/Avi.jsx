@@ -365,7 +365,7 @@ const AviatorGame = () => {
         
         if (res.data.success) {
             dispatch(setUserData(res.data.userData));
-            alert(`Jackpot! Aapne ₹${winAmount} Cash out kiye!`);
+            alert(`Jackpot! Aapne 🪙${winAmount} win kiye!`);
         }
     } catch (err) {
         console.error("Winning update failed", err);
@@ -400,7 +400,7 @@ const AviatorGame = () => {
 
       <div className="aviator-body">
         <div style={{position: 'absolute', top: '10px', right: '10px', background: '#28a745', padding: '5px 15px', borderRadius: '20px', fontWeight: 'bold', zIndex: 100}}>
-              ₹ {Number(userData?.walletBalance || 0).toFixed(2)}
+              🪙 {Number(userData?.walletBalance || 0).toFixed(2)}
         </div>
 
         <h3 className="header-title">AVIATOR ✈️</h3>

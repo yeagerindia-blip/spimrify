@@ -31,7 +31,7 @@ function Bet2() {
             <div id="money">
                 <div className="mainMoney">
                     <h1 id="caseAdd" onClick={() => { nav('/wallet') }}>
-                        ₹ {Number(userData?.walletBalance || 0).toFixed(1)}
+                        🪙 {Number(userData?.walletBalance || 0).toFixed(1)}
                     </h1>
                 </div>
             </div>
