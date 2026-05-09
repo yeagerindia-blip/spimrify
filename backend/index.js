@@ -22,6 +22,6 @@ app.get("/ppt",(req,res)=>{
     res.status(200).json({messgae:"ipconfig"})
 })
 app.listen(port,'0.0.0.0',()=>{
-    console.log(`Server is running on http://0.0.0.0:${port}`)
+    console.log(`Server is listing on http://0.0.0.0:${port}`)
     connectDB()
 })
