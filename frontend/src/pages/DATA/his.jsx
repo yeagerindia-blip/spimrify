@@ -86,7 +86,7 @@ const TransactionHistory = () => {
                   fontSize: '22px', 
                   fontWeight: '900' 
                 }}>
-                  {txn.type === 'withdrawal' ? '-' : '+'}₹{txn.amount}
+                  {txn.type === 'withdrawal' ? '-' : '+'}🪙{txn.amount}
                 </div>
                 <div style={{ 
                   fontSize: '10px', 
