@@ -55,7 +55,7 @@ const BigSmallGame = () => {
                     const res = await axios.post(`${serverURL}/win`, { amount: winAmount }, { withCredentials: true });
                     if (res.data.success) {
                         dispatch(setUserData(res.data.userData));
-                        alert(`Winner! Number: ${luckyNumber} (${winningSide}) \nJeete: ₹${winAmount}`);
+                        alert(`Winner! Number: ${luckyNumber} (${winningSide}) \nJeete: 🪙${winAmount}`);
                     }
                 } catch (err) { console.error(err); }
             }
