@@ -1,0 +1,1813 @@
+@media (min-width:1025px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+    * {
+        scrollbar-width: none !important;
+        /* Firefox */
+        -ms-overflow-style: none !important;
+        /* IE/Edge */
+    }
+
+    *::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    .main_div {
+        /* background: linear-gradient(180deg, #ffffff 0%, #09ff00 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        width: 100%;
+        height: 700px;
+    }
+
+    .Xmain_div {
+        /* background: linear-gradient(180deg, #000000 0%, #1a0000 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #33ac0f 100%);
+
+        width: 100%;
+        height: 100vh;
+    }
+
+    .logo_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #logo {
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 8%;
+        margin-top: 6%;
+        border: 3px solid white;
+    }
+
+    #icon {
+        position: absolute;
+        right: 34.1%;
+        bottom: 18%;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    #get_start {
+        width: 450px;
+        height: 45px;
+        color: rgb(255, 255, 255);
+        font-family: arial black;
+        background-color: transparent;
+        outline: none;
+        /* border: 0.5px solid white; */
+        border: none;
+        border-radius: 99px;
+        font-size: 23px;
+        text-shadow: 0.9px 0.9px 1.9px rgb(0, 0, 0);
+        box-shadow: 0.5px 0.5px 3px white;
+        cursor: pointer;
+
+    }
+
+    #get_start:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+    }
+
+    /* _________________________________________SIGNUP_______________________________________________________________________ */
+    .signup_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text_signup {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text {
+        color: white;
+        text-align: center;
+        margin-top: 19%;
+        position: absolute;
+        font-family: arial black;
+        text-shadow: 0.9px 0.9px 3px black;
+    }
+
+    #Signup_form {
+        margin-top: 13%;
+    }
+
+    .Signup_input {
+        height: 45px;
+        padding-left: 9%;
+        font-size: 19px;
+        color: white;
+        width: 450px;
+        background-color: transparent;
+        margin-top: 3%;
+        outline: none;
+        border: none;
+        border-radius: 99px;
+        box-shadow: 0.9px 0.9px 3px white;
+    }
+
+    .Signup_input:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+
+    }
+
+    #otp_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #otp_box {
+        height: 45px;
+        padding-left: 9%;
+        font-size: 19px;
+        color: white;
+        width: 450px;
+        background-color: transparent;
+        margin-top: 3%;
+        outline: none;
+        border: none;
+        border-radius: 99px;
+        box-shadow: 0.9px 0.9px 3px white;
+        margin-top: 49%;
+    }
+
+    #otp_box:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+
+    }
+
+    #otp_button {
+        height: 40px;
+        font-size: 19px;
+        color: white;
+        width: 494px;
+        background-color: transparent;
+        margin-top: 3%;
+        outline: none;
+        border: none;
+        border-radius: 99px;
+        box-shadow: 0.9px 0.9px 3px white;
+    }
+
+    #otp_button:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+
+    }
+
+    #signup_button {
+        height: 40px;
+        font-size: 19px;
+        color: white;
+        width: 494px;
+        background-color: transparent;
+        margin-top: 3%;
+        outline: none;
+        border: none;
+        border-radius: 99px;
+        box-shadow: 0.9px 0.9px 3px white;
+    }
+
+    #signup_button:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+
+    }
+
+    #signup_last {
+        color: rgb(126, 126, 126);
+        text-align: center;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+
+    span {
+        color: white;
+    }
+
+    #error {
+        color: red;
+        text-shadow: 0.9px 0.9px 3px rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    #loginDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 13%;
+    }
+
+
+    .home_header_div {
+        height: 75px;
+        width: 100%;
+        border-bottom: 0.4px solid white;
+        position: relative;
+        top: 0%;
+    }
+
+    .fix_header {
+        height: 75px;
+        width: 100%;
+
+    }
+
+
+    #home_logo {
+        height: 55px;
+        width: 55px;
+        background-color: transparent;
+        border-radius: 99px;
+        box-shadow: 0.5px 0.5px 3px white;
+        margin: 10px;
+    }
+
+    #home_logo:hover {
+        box-shadow: 0.1px 0.1px 0.9px white;
+    }
+
+    #sidebar {
+        height: 100%;
+        width: 250px;
+        /* background: linear-gradient(180deg, #464545 0%, #4b0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        border-radius: 0px 9px 9px 0px;
+        position: fixed;
+        top: 76px;
+        left: 0%;
+    }
+
+    li {
+        margin: 3%;
+        margin-top: 9%;
+        padding-left: 19%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        list-style: none;
+        font-size: 15px;
+        background-color: transparent;
+        box-shadow: 0.5px 0.5px 3px white;
+        border-radius: 99px;
+        font-family: arial black;
+        cursor: pointer;
+    }
+
+    li:hover {
+        box-shadow: 0.1px 0.1px 0.8px white;
+    }
+
+    #sidebar_button {
+        margin: 3%;
+        margin-top: 9%;
+        list-style: none;
+        font-size: 15px;
+        background-color: transparent;
+        box-shadow: 0.5px 0.5px 3px white;
+        border-radius: 99px;
+        font-family: arial black;
+        cursor: pointer;
+        position: fixed;
+        bottom: 9px;
+    }
+
+    #sidebar_button:hover {
+        box-shadow: 0.1px 0.1px 0.8px white;
+    }
+
+    #text_profile {
+        color: white;
+        text-align: center;
+        margin-top: 9%;
+        position: absolute;
+        font-family: arial black;
+        text-shadow: 0.9px 0.9px 3px black;
+    }
+
+    .profileImageDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4%;
+        position: relative;
+
+    }
+
+    #profileImage {
+        height: 130px;
+        width: 130px;
+        background-color: transparent;
+        border-radius: 99px;
+        box-shadow: 0.5px 0.5px 3px white;
+        margin: 50px;
+    }
+
+    #profileImage:hover {
+        box-shadow: 0.1px 0.1px 0.9px white;
+    }
+
+
+    .showImage {
+        position: absolute;
+        height: 130px;
+        width: 130px;
+        background-color: aliceblue;
+        opacity: 0;
+        border-radius: 99px;
+
+    }
+
+    .showImage:hover {
+        opacity: 0.1;
+    }
+
+    #sidebar_log {
+        position: absolute;
+        bottom: 15.7%;
+        left: 35%;
+        background-color: transparent;
+        color: rgb(255, 0, 0);
+        border: none;
+        outline: none;
+        font-size: 30px;
+        text-shadow: 3 0.3px 0.3px 0.5px rgb(5, 5, 5);
+        cursor: pointer;
+    }
+
+    #logout {
+        position: absolute;
+        bottom: 17%;
+        left: 3%;
+        background-color: transparent;
+        color: rgb(255, 0, 0);
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-family: arial black;
+        text-shadow: 0.3px 0.3px 0.5px rgb(5, 5, 5);
+        cursor: pointer;
+    }
+
+    #sidebar_close {
+        background-color: transparent;
+        color: rgb(87, 15, 15);
+        border: none;
+        outline: none;
+        font-size: 30px;
+        position: absolute;
+        top: 9px;
+        right: 5%;
+        cursor: pointer;
+
+    }
+
+    #home_play {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #text_play {
+        color: white;
+        font-family: arial black;
+        font-size: 22px;
+        text-align: center;
+        position: absolute;
+        margin-top: 70px;
+
+    }
+
+    #case {
+        color: green;
+    }
+
+    #caseAdd {
+        color: rgb(8, 131, 8);
+        text-shadow: 0.1px 0.1px 0.9px rgb(0, 0, 0);
+    }
+
+    #money {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .mainMoney {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        position: absolute;
+        right: 3%;
+        font-size: 9px;
+        height: 40px;
+        width: 99px;
+        background-color: transparent;
+        margin-top: 70px;
+        border-radius: 99px;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .mainMoney:hover {
+        box-shadow: 0.1px 0.1px 0.9px rgb(255, 255, 255);
+
+    }
+
+    #games {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 1%;
+    }
+
+    #first_game {
+        height: 200px;
+        width: 190px;
+        border-radius: 9px;
+        margin: 9px;
+        margin-left: 1%;
+    }
+
+    #second_game {
+        height: 200px;
+        width: 190px;
+        border-radius: 9px;
+        margin: 9px;
+        background-color: aliceblue;
+    }
+
+    .allGames {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 20px;
+    }
+
+    #numberGame {
+        /* background: linear-gradient(180deg, #000000 0%, #1a0000 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        color: white;
+        height: 100vh;
+    }
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* .admin_div{
+
+
+} */
+
+    .adminheader {
+        height: 250px;
+        width: 100%;
+        border-bottom: 0.5px solid white;
+        display: flex;
+        position: fixed;
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    #adminlogo {
+        height: 200px;
+        width: 200px;
+        border-radius: 55%;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        margin: 3%;
+        margin-top: 1.7%;
+    }
+
+    #admintext {
+        color: white;
+        display: inline;
+        margin-top: 8%;
+        font-family: arial black;
+    }
+
+    .adminOption {
+        display: flex;
+        gap: 30px;
+        margin-top: 1%;
+        margin: 1%;
+        margin-top: 240px;
+        padding-top: 30px;
+        z-index: 200;
+    }
+
+    .adminItem {
+        width: 100%;
+        height: auto;
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        padding-top: 2px;
+    }
+
+    .adminPay {
+        color: white;
+        font-family: arial black;
+        font-size: 24px;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        text-shadow: 0.1px 0.1px 3px rgb(0, 0, 0);
+        cursor: pointer;
+        pointer-events: auto;
+    }
+
+    .adminPay:hover {
+        box-shadow: 0.5px 0.5px 0.9px rgb(255, 255, 255);
+    }
+
+    .userMange {
+        width: 100%;
+        height: auto;
+        /* background: linear-gradient(180deg, #313131 0%, #9e1414 100%); */
+        /* box-shadow: 4px 4px 30px rgb(255, 255, 255); */
+        padding: 5px;
+        overflow: hidden;
+
+    }
+
+    .payment {
+        width: 100%;
+        height: 400px;
+        /* background: linear-gradient(180deg, #313131 0%, #309e14 100%); */
+        /* box-shadow: 4px 4px 30px rgb(255, 255, 255); */
+        padding: 5px;
+    }
+
+    #adminLogout {
+        height: 50px;
+        width: 50px;
+        font-size: 50px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        position: absolute;
+        right: 9px;
+        top: 70%;
+    }
+
+    #otherUserImage {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+
+    }
+
+    .otherUser {
+        width: 99%;
+        height: 70px;
+        /* background-color: #0f0f0f; */
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+
+        margin-top: 9px;
+        padding-left: 9px;
+        padding-top: 10px;
+        color: white;
+    }
+
+    .otherUser:hover {
+        box-shadow: 1px 1px 3px rgb(31, 255, 1);
+
+    }
+
+    #userNames {
+        position: absolute;
+        /* top: ; */
+        margin-top: 15px;
+        margin-left: 5%;
+    }
+
+    #date {
+        position: absolute;
+        /* top: ; */
+        right: 9%;
+        margin-top: -3%;
+        margin-left: 5%;
+    }
+
+
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    .walletDiv {
+        width: 100%;
+        height: 100vh;
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+    }
+
+    .walletHeader {
+        height: 75px;
+        width: 100%;
+        border-bottom: 0.5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .walletLogo {
+        position: absolute;
+        left: 0%;
+    }
+
+    #walletText {
+        color: white;
+        margin-top: 4px;
+        font-family: arial black;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .walletBody {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #QR {
+        height: 300px;
+        width: 300px;
+        box-shadow: 0.1px 0.1px 10px rgb(255, 255, 255);
+        border-radius: 9px;
+        cursor: pointer;
+        position: absolute;
+        left: 5%;
+        top: 26%;
+    }
+
+    #QR:hover {
+        box-shadow: 0.1px 0.1px 1px rgb(255, 255, 255);
+
+    }
+
+    #scan {
+        color: white;
+        font-family: arial black;
+        font-size: 19px;
+        position: absolute;
+        top: 18%;
+        left: 10%;
+    }
+
+    .walletButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 9%;
+
+    }
+
+    .walletBox {
+        height: 40px;
+        width: 400px;
+        margin-top: 3%;
+        padding-left: 11px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        border-radius: 99px;
+        color: white;
+    }
+
+    .walletBox:hover {
+        box-shadow: 0.1px 0.1px 1px rgb(255, 255, 255);
+    }
+
+    .walletSubmit:hover {
+        box-shadow: 0.1px 0.1px 1px rgb(255, 255, 255);
+    }
+
+    /* +++++++++++++++ */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .walletBoxC {
+        color: white;
+        margin-top: 3%;
+    }
+
+    .walletSubmit {
+        height: 40px;
+        width: 411px;
+        margin-top: 9%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        border-radius: 99px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .payment-card {
+        color: white;
+        display: flex;
+        gap: 30px;
+        margin-top: 5%;
+        font-family: arial black;
+        box-shadow: 0.3px 0.3px 3px white;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 1.5%;
+
+    }
+
+    .divBet {
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0%;
+    }
+
+    /* .divLogoBet{
+    margin-top: 30%;
+} */
+    #textBet {
+        color: white;
+        text-align: center;
+        font-family: arial black;
+        margin-top: 1%;
+    }
+
+    .logoBet {
+        margin-top: 6%;
+        margin-left: 5%;
+        width: 300px;
+        height: 300px;
+        border-radius: 9px;
+    }
+
+    .bet {
+        position: absolute;
+        right: 15%;
+        top: 21%;
+
+
+    }
+
+    .price {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 40px;
+        background-color: green;
+        color: white;
+        border: 0.3px solid white;
+        margin-top: 5%;
+        margin-left: 25px;
+        border-radius: 99px;
+    }
+
+    .price:hover {
+        background-color: rgb(11, 209, 11);
+    }
+
+    .Play:hover {
+        background-color: rgb(11, 209, 11);
+    }
+
+    .playButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Play {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        width: 36.6%;
+        height: 40px;
+        background-color: green;
+        color: white;
+        border: 0.3px solid white;
+        margin-top: 0%;
+        margin-left: 25px;
+        border-radius: 99px;
+        position: absolute;
+        top: 60%;
+        left: 46.6%;
+    }
+
+
+
+    .dis {
+        width: 50%;
+        color: white;
+        /* margin: 5%; */
+        margin-left: 5%;
+
+    }
+
+    #title {
+        font-size: 29px;
+
+    }
+
+    #discription {
+        font-size: 19px;
+        margin-top: 3%;
+    }
+
+    .withPay{
+        width: 40%;
+        height: 40px;
+        background-color: transparent;
+        border: 0.6px solid gray;
+        padding-left: 9px;
+        color: white;
+    }
+
+    #holi{
+        display: none;
+    }
+
+    .Signup_input::placeholder{
+        color: white;
+    }
+
+}
+
+/* ----------------------------------RESPONSEVIE--------------------------------------------------------- */
+
+
+
+@media (max-width: 1024px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    .Signup_input::placeholder{
+        color: white;
+    }
+    .holiDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        #holi{
+        display: block;
+        height: 60px;
+        width: 96%;
+        margin-top: 2%;
+        border-radius: 5px;
+    }
+
+    .withPay{
+        width: 96%;
+        height: 40px;
+        background-color: transparent;
+        border: 0.6px solid gray;
+        padding-left: 9px;
+        color: white;
+    }
+
+
+
+    .adminheader {
+        height: 230px;
+        width: 100%;
+        border-bottom: 0.5px solid white;
+        display: flex;
+        position: fixed;
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    #adminlogo {
+        height: 100px;
+        width: 100px;
+        border-radius: 55%;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        margin: 3%;
+        margin-top: 10%;
+    }
+
+    #admintext {
+        color: white;
+        display: inline;
+        margin-top: 15%;
+        font-family: arial black;
+        font-size: 25px;
+        
+    }
+
+    .adminOption {
+        display: flex;
+        gap: 9px;
+        margin: 1%;
+        margin-top: 220px;
+        padding-top: 30px;
+        z-index: 200;
+    }
+
+    .adminItem {
+        width: 100%;
+        height: auto;
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        /* background: linear-gradient(180deg, #244b23 0%, #46ec13 100%); */
+
+        /* padding-top: 2px; */
+
+    }
+
+    .adminPay {
+        color: rgb(0, 0, 0);
+        font-family: arial black;
+        font-size: 13px;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2px;
+        margin-left: 3%;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        text-shadow: 0.1px 0.1px 3px rgb(0, 0, 0);
+        cursor: pointer;
+        pointer-events: auto;
+        background-color: #0c3b0b;
+        color: white;
+        padding-top: 1px;
+    }
+
+    .adminPay:hover {
+        box-shadow: 0.5px 0.5px 0.9px rgb(255, 255, 255);
+    }
+
+    .userMange {
+        width: 100%;
+        height: auto;
+        /* background: linear-gradient(180deg, #313131 0%, #9e1414 100%); */
+        /* box-shadow: 4px 4px 30px rgb(255, 255, 255); */
+        padding: 5px;
+        overflow: hidden;
+
+    }
+
+    .payment {
+        width: 100%;
+        height: 400px;
+        /* background: linear-gradient(180deg, #313131 0%, #309e14 100%); */
+        /* box-shadow: 4px 4px 30px rgb(255, 255, 255); */
+        padding: 5px;
+        
+    }
+
+    #adminLogout {
+        height: 50px;
+        width: 50px;
+        font-size: 50px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        position: absolute;
+        right: 9px;
+        top: 70%;
+    }
+
+    
+    #otherUserImage {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+
+    }
+
+    .otherUser {
+        width: 100%;
+        height: 70px;
+        /* background-color: #0f0f0f; */
+        box-shadow: 0.1px 0.1px 3px rgb(17, 165, 3);
+
+        margin-top: 9px;
+        padding-left: 9px;
+        padding-top: 10px;
+        color: white;
+    }
+
+    .otherUser:hover {
+        box-shadow: 1px 1px 3px rgb(31, 255, 1);
+
+    }
+
+    #userNames {
+        position: absolute;
+        /* top: ; */
+        margin-top: 15px;
+        margin-left: 5%;
+        color: rgb(3, 53, 3);
+
+    }
+
+    #date {
+        position: absolute;
+        /* top: ; */
+        right: 9%;
+        margin-top: -13%;
+        margin-left: 5%;
+        color: rgb(3, 53, 18);
+
+    }
+
+    #userMan{
+        font-size: 18px;
+        color: rgb(3, 53, 18);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .divBet {
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0%;
+    }
+
+    /* .divLogoBet{
+    margin-top: 30%;
+} */
+    #textBet {
+        color: white;
+        text-align: center;
+        font-family: arial black;
+        /* margin-top: 1%; */
+        font-size: 17px;
+    }
+
+    .logoBet {
+        margin-top: 16%;
+        margin-left: 5%;
+        width: 150px;
+        height: 150px;
+        border-radius: 9px;
+    }
+
+    .bet {
+        position: absolute;
+        right: 1%;
+        top: 13%;
+
+
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 40px;
+        background-color: green;
+        color: white;
+        border: 0.3px solid white;
+        margin-top: 5%;
+        margin-left: 25px;
+        border-radius: 99px;
+
+    }
+
+    .price:hover {
+        background-color: rgb(11, 209, 11);
+    }
+
+    .Play:hover {
+        background-color: rgb(11, 209, 11);
+    }
+
+    .playButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Play {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 40px;
+        background-color: green;
+        color: white;
+        border: 0.3px solid white;
+        margin-top: 25%;
+        /* margin-left: 25px; */
+        border-radius: 99px;
+
+    }
+
+    .dis {
+        width: 50%;
+        color: white;
+        margin: 5%;
+        margin-left: 5%;
+
+    }
+
+    #title {
+        font-size: 15px;
+
+    }
+
+    #discription {
+        font-size: 13px;
+        margin-top: 9%;
+    }
+
+
+
+
+
+
+
+    .walletDiv {
+        width: 100%;
+        height: 100vh;
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+    }
+
+    .walletHeader {
+        height: 75px;
+        width: 100%;
+        border-bottom: 0.5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .walletLogo {
+        position: absolute;
+        left: 0%;
+    }
+
+    #walletText {
+        color: white;
+        margin-top: 4px;
+        font-family: arial black;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .walletBody {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #QR {
+        height: 300px;
+        width: 300px;
+        box-shadow: 0.1px 0.1px 10px rgb(255, 255, 255);
+        border-radius: 9px;
+        cursor: pointer;
+        position: absolute;
+        /* left: 5%; */
+        top: 19%;
+    }
+
+    #QR:hover {
+        box-shadow: 0.1px 0.1px 1px rgb(255, 255, 255);
+
+    }
+
+    #scan {
+        color: white;
+        font-family: arial black;
+        font-size: 15px;
+        position: absolute;
+        top: 13%;
+        /* left: 10%; */
+    }
+
+    .walletButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 99%;
+
+    }
+
+    .walletBox {
+        height: 40px;
+        width: 96%;
+        margin-top: 3%;
+        padding-left: 11px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        border-radius: 99px;
+        color: white;
+    }
+
+    .walletBox:hover {
+        box-shadow: 0.1px 0.1px 1px rgb(255, 255, 255);
+    }
+
+    .walletSubmit:hover {
+        box-shadow: 0.1px 0.1px 1px rgb(255, 255, 255);
+    }
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .walletBoxC {
+        color: white;
+        margin-top: 3%;
+    }
+
+    .walletSubmit {
+        height: 40px;
+        width: 100.4%;
+        margin-top: 9%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        border-radius: 99px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .payment-card {
+        color: white;
+        display: flex;
+        gap: 30px;
+        margin-top: 5%;
+        font-family: arial black;
+        box-shadow: 0.3px 0.3px 3px white;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 1.5%;
+
+    }
+
+
+
+    .fix_header {
+        border-bottom: 0.6px solid white;
+    }
+
+    .showImage {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        opacity: 0;
+    }
+
+    .showImage:hover {
+        opacity: 0.3;
+    }
+
+    #text_profile {
+        color: white;
+        font-family: arial black;
+        margin-top: 20%;
+    }
+
+    .main_div {
+        /* background:linear-gradient(rgb(228, 103, 103),rgb(255, 222, 222)); */
+        /* background: linear-gradient(180deg, #000000 0%, #1a0000 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+
+        width: 100%;
+        height: 100vh;
+    }
+
+    .logo_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #logo {
+        height: 170px;
+        border-radius: 50%;
+        margin-bottom: 25%;
+        margin-top: 27%;
+    }
+
+    #icon {
+        position: absolute;
+        right: 18%;
+        bottom: 12%;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    #get_start {
+        height: 40px;
+        width: 250px;
+        color: rgb(255, 255, 255);
+        font-family: arial black;
+        background-color: transparent;
+        outline: none;
+        border: 0.5px solid white;
+        border-radius: 99px;
+        font-size: 18px;
+        text-shadow: 0.9px 0.9px 1.9px black;
+        box-shadow: 0.5px 0.5px 3px white;
+        cursor: pointer;
+    }
+
+    #get_start:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+    }
+
+
+
+
+    /* _________________________________________SIGNUP_PHONE______________________________________________________________________ */
+
+
+
+
+    .signup_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text_signup {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text {
+        color: white;
+        text-align: center;
+        margin-top: 65%;
+        position: absolute;
+        font-family: arial black;
+        text-shadow: 0.9px 0.9px 3px black;
+        font-size: 25px;
+    }
+
+    #Signup_form {
+        margin-top: 50%;
+    }
+
+    .Signup_input {
+        height: 40px;
+        width: 250px;
+        background-color: transparent;
+        color: white;
+        border-radius: 99px;
+        padding-left: 19px;
+        outline: none;
+        border: none;
+        box-shadow: 0.9px 0.9px 3px white;
+        margin-top: 5%;
+        font-size: 16px;
+    }
+
+    .Signup_input:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+
+    }
+
+
+    #signup_button {
+        height: 37px;
+        width: 269px;
+        background-color: transparent;
+        color: white;
+        border-radius: 99px;
+        outline: none;
+        border: none;
+        box-shadow: 0.9px 0.9px 3px white;
+        margin-top: 5%;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+    #signup_last {
+        color: rgb(126, 126, 126);
+        text-align: center;
+        margin-top: 5%;
+    }
+
+
+
+    span {
+        color: white;
+    }
+
+    #error {
+        color: red;
+        text-shadow: 0.9px 0.9px 3px rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    #otp_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #otp_button {
+        height: 37px;
+        width: 269px;
+        background-color: transparent;
+        color: white;
+        border-radius: 99px;
+        outline: none;
+        border: none;
+        box-shadow: 0.9px 0.9px 3px white;
+        margin-top: 5%;
+        font-size: 16px;
+    }
+
+    #otp_box {
+        height: 40px;
+        width: 250px;
+        background-color: transparent;
+        color: white;
+        border-radius: 99px;
+        padding-left: 19px;
+        outline: none;
+        border: none;
+        box-shadow: 0.9px 0.9px 3px white;
+        margin-top: 95%;
+        font-size: 16px;
+    }
+
+    #otp_box:hover {
+        box-shadow: 0.3px 0.3px 0.9px white;
+
+    }
+
+
+    #loginDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50%;
+    }
+
+
+    .main_div {
+        /* background: linear-gradient(180deg, #0f0f0f 0%, #5a0202 100%); */
+        /* background: linear-gradient(180deg, #244b23 0%,   #46ec13 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #33ac0f 100%);
+
+
+        width: 100%;
+        height: 100vh;
+    }
+
+    .Xmain_div {
+        /* background: linear-gradient(180deg, #000000 0%, #1a0000 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        width: 100%;
+        height: 100vh;
+    }
+
+    #home_play {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #text_play {
+        color: white;
+        font-family: arial black;
+        font-size: 18px;
+        text-align: center;
+        position: absolute;
+        margin-top: 70px;
+
+    }
+
+    #case {
+        color: green;
+    }
+
+    #caseAdd {
+        color: green;
+        text-shadow: 0.1px 0.1px 0.9px rgb(255, 255, 255);
+    }
+
+    #money {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .mainMoney {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        position: absolute;
+        right: 3%;
+        font-size: 9px;
+        height: 30px;
+        width: 80px;
+        background-color: transparent;
+        margin-top: 70px;
+        border-radius: 99px;
+        box-shadow: 0.1px 0.1px 3px rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .mainMoney:hover {
+        box-shadow: 0.1px 0.1px 0.9px rgb(255, 255, 255);
+
+    }
+
+    #games {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin-top: 5%;
+        margin-left: 9px;
+        margin-bottom: 5%;
+    }
+
+    #first_game {
+        height: 140px;
+        width: 130px;
+        border-radius: 9px;
+        /* margin: 9px; */
+    }
+
+    #second_game {
+        height: 140px;
+        width: 130px;
+        border-radius: 9px;
+        /* margin: 9px; */
+        background-color: aliceblue;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+
+    .four {
+        display: none;
+    }
+
+    .allGames {
+        display: flex;
+        /* flex-direction: column; */
+        overflow-x: auto;
+        /* gap: 5px; */
+    }
+
+    #numberGame {
+        /* background: linear-gradient(180deg, #000000 0%, #1a0000 100%); */
+        background: linear-gradient(180deg, #244b23 0%, #46ec13 100%);
+
+        color: white;
+        height: 100vh;
+    }
+
+    #home_logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 55%;
+        margin: 9px;
+        box-shadow: 0.5px 0.5px 3px white
+    }
+
+
+    #sidebar {
+        height: 100%;
+        width: 250px;
+        /* background: linear-gradient(180deg, #464545 0%, #4b0202 100%); */
+        background: linear-gradient(180deg, #0c3b0b 0%, #7bb469 100%);
+
+        border-radius: 0px 9px 9px 0px;
+        position: fixed;
+        top: 76px;
+        left: 0%;
+    }
+
+    li {
+        margin: 3%;
+        margin-top: 9%;
+        padding-left: 19%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        list-style: none;
+        font-size: 15px;
+        background-color: transparent;
+        box-shadow: 0.5px 0.5px 3px white;
+        border-radius: 99px;
+        font-family: arial black;
+        cursor: pointer;
+    }
+
+    li:hover {
+        box-shadow: 0.1px 0.1px 0.8px white;
+    }
+
+    #sidebar_button {
+        margin: 3%;
+        margin-top: 9%;
+        list-style: none;
+        font-size: 15px;
+        background-color: transparent;
+        box-shadow: 0.5px 0.5px 3px white;
+        border-radius: 99px;
+        font-family: arial black;
+        cursor: pointer;
+        position: fixed;
+        bottom: 9px;
+    }
+
+    #sidebar_button:hover {
+        box-shadow: 0.1px 0.1px 0.8px white;
+    }
+
+    #text_profile {
+        color: white;
+        text-align: center;
+        margin-top: 30%;
+        position: absolute;
+        font-family: arial black;
+        text-shadow: 0.9px 0.9px 3px black;
+    }
+
+
+    .profileImageDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18%;
+        position: relative;
+
+    }
+
+    #profileImage {
+        height: 130px;
+        width: 130px;
+        background-color: transparent;
+        border-radius: 99px;
+        box-shadow: 0.5px 0.5px 3px white;
+        margin: 50px;
+    }
+
+    #profileImage:hover {
+        box-shadow: 0.1px 0.1px 0.9px white;
+    }
+
+
+    .showImage {
+        position: absolute;
+        height: 130px;
+        width: 130px;
+        background-color: aliceblue;
+        opacity: 0;
+        border-radius: 99px;
+
+    }
+
+    .showImage:hover {
+        opacity: 0.1;
+    }
+
+    #sidebar_log {
+        position: absolute;
+        bottom: 15.7%;
+        left: 35%;
+        background-color: transparent;
+        color: rgb(255, 0, 0);
+        border: none;
+        outline: none;
+        font-size: 30px;
+        text-shadow: 3 0.3px 0.3px 0.5px rgb(5, 5, 5);
+        cursor: pointer;
+    }
+
+    #logout {
+        position: absolute;
+        bottom: 17%;
+        left: 3%;
+        background-color: transparent;
+        color: rgb(255, 0, 0);
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-family: arial black;
+        text-shadow: 0.3px 0.3px 0.5px rgb(5, 5, 5);
+        cursor: pointer;
+    }
+
+    #sidebar_close {
+        background-color: transparent;
+        color: rgb(87, 15, 15);
+        border: none;
+        outline: none;
+        font-size: 30px;
+        position: absolute;
+        top: 9px;
+        right: 5%;
+        cursor: pointer;
+
+    }
+
+
+
+    * {
+        scrollbar-width: none !important;
+        /* Firefox */
+        -ms-overflow-style: none !important;
+        /* IE/Edge */
+    }
+
+    *::-webkit-scrollbar {
+        display: none !important;
+    }
+}

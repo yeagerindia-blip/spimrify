@@ -1,0 +1,37 @@
+#showPass {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+#showPass::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+#shoow {
+    margin-top: 12px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+#caseAdd {
+    max-width: 120px;          /* Box ki jitni jagah hai uske hisaab se set karein */
+    white-space: nowrap;      /* Text ko dusri line mein jaane se rokta hai */
+    overflow: hidden;         /* Bahar nikalne wale part ko chhupa deta hai */
+    text-overflow: ellipsis;  /* Baki bache hue number ki jagah '...' dikhata hai */
+    display: inline-block;    /* Ya 'block', layout ke hisaab se */
+    vertical-align: middle;
+    cursor: pointer;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+/* Jab user mouse le jaye toh pura balance dikhane ke liye (Optional) */
+#caseAdd:hover {
+    overflow: visible;
+    white-space: normal;
+    background: transparent; /* Thoda highlight karne ke liye */
+    position: absolute;  /* Taaki baki content move na ho */
+    z-index: 10;
+}
